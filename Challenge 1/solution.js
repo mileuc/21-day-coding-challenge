@@ -6,6 +6,12 @@ const parseMessage = (origin, message) => {
   console.log(output)
   // Remember to return a value!
   return output
+ 
 }
 
 parseMessage("Mission Control", "Hello there!")
+
+// Alternate solution:
+// const parseMessage = (origin, message) => {
+//   return `${origin}: ${message}`
+// }
