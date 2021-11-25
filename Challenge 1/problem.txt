@@ -14,4 +14,6 @@ Input:
 Output:
     Mission Control: Hello there!
     
-
+Hints:
+Functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+String Concatenation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
