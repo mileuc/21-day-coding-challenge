@@ -1,0 +1,28 @@
+Create a function that takes in a roster array and an astronaut object. The function will add the astronaut to the roster and return the updated roster.
+
+Examples
+Input:
+    const exampleRoster = []
+    const exampleAstronaut = {
+      firstName:"Chris",
+      lastName: "Hadfield",
+      nickname:"Space Oddity",
+      prefix:"Astronaut"
+    }
+    
+
+Output:
+    const exampleRoster = [
+      {
+        firstName:"Chris",
+        lastName: "Hadfield",
+        nickname:"Space Oddity",
+        prefix:"Astronaut"
+      }
+    ]
+    
+Hints
+The goal of this challenge is to work with arrays and append new elements to them. You can learn more about arrays by clicking the link below.
+
+Arrays: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
