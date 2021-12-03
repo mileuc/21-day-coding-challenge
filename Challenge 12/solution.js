@@ -26,3 +26,8 @@ const parseTranscripts = (messages) => {
   console.log(parsed_messages)
   return parsed_messages
 }
+
+//alternate solution
+const parseTranscripts = (messages) => {
+  return messages.map(message => `${message.origin}: ${message.message}`)
+}
