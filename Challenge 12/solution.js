@@ -14,3 +14,15 @@ const parseTranscripts = (messages) => {
   console.log(parsed_messages)
   return parsed_messages
 }
+
+//alternate solution
+const parseTranscripts = (messages) => {
+  // Code here!
+  parsed_messages = []
+  messages.forEach(function(message){
+    new_string = `${message.origin}: ${message.message}`
+    parsed_messages.push(new_string)
+  })
+  console.log(parsed_messages)
+  return parsed_messages
+}
