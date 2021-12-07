@@ -1,0 +1,30 @@
+Your task is to write a function that will take in two position objects. 
+Calculate the average speed from the two positions and return the average speed rounded to the first decimal point.
+
+Each object contains the altitude in meters, and a time stamp in seconds. 
+
+Examples
+Input:
+  const firstPosition = {
+    time: 1637074462,
+    altitude: 1100
+  }
+  const secondPosition = {
+    time: 1637074558,
+    altitude: 2200
+  }
+    
+
+Output:
+  11.5
+		
+Hints:
+The goal of this challenge is to work with objects and rounding. You can learn more about those by clicking the links below.
+
+For the average speed, consider that the shuttle is flying straight up at a constant speed. (altitude difference / time difference)
+
+Return: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return
+Objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+Rounding values: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+
+
