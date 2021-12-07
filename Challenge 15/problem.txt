@@ -1,0 +1,25 @@
+Your task is to write a function that will take in a launch date and a mission name as strings. 
+Calculate the difference between two dates in days and return an object containing the name of the mission and a rounded day difference.
+
+A part of the code has been written for you, and it is important that it stays the same for the tests to work out.
+
+Examples
+Input:
+    const launchDate = "2021-12-12"
+    const fakeToday = "2021-12-01"
+    const missionName = "Moon visit"
+    
+
+Output:
+    {
+      missionName = "Moon visit",
+      daysRemaining = 11
+    }
+    
+
+The goal of this challenge is to work with dates, objects and rounding. You can learn more about those by clicking the links below.
+Date: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
+Time: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime
+Return: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return
+Objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+Rounding values: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
